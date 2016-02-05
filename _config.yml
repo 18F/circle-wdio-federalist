@@ -1,0 +1,10 @@
+baseurl: ''
+
+title: Hello, world!
+
+exclude:
+  - circle.yml
+  - node_modules
+  - package.json
+  - test
+  - webpack.config.js

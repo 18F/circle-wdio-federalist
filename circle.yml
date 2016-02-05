@@ -1,0 +1,10 @@
+machine:
+  node:
+    version: 4.0
+
+test:
+  override:
+    # this is a temporary hack for:
+    # <https://github.com/webdriverio/webdriverio/issues/926>
+    - ln -s /tmp
+    - ./test/ci.sh
