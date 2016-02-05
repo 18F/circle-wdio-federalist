@@ -4,6 +4,7 @@ This is a standalone, working example that integrates [Circle CI],
 [WebDriverIO], [Sauce Labs], and [Federalist] into a (mostly) sane cross-
 browser automated testing setup.
 
+
 ## How It Works
 Here are the moving parts:
 
@@ -27,6 +28,13 @@ Here are the moving parts:
   platforms (Windows, OS X, Linux, iOS, Android), collect information about
   which tests succeed or fail, and even watch the scripted interactions after
   the fact.
+
+The core piece of infrastructure here is a single shell script,
+[test/ci.sh](test/ci.sh), which infers the Federalist URL from Circle CI's
+[environment variables][circle env] and fetches a `commit.txt` file until its
+contents match the git commit ID (SHA1) in Circle's `$CIRCLE_SHA`. You can see
+this at work by viewing this repo's [published commit.txt](http://federalist.18f.gov.s3-website-us-east-1.amazonaws.com/site/shawnbot/circle-wdio-federalist/commit.txt)
+and the [passing build on Circle CI](https://circleci.com/gh/shawnbot/circle-wdio-federalist/2).
 
 ## Setup
 To start, you can either fork this repo or manually copy the relevant files
