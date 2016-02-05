@@ -55,8 +55,10 @@ into your own. You'll need:
    webdriver-manager --chrome
    ```
 
-1. Create a GitHub repository for your [Jekyll] site.
-1. Add your repository to [Federalist].
+### Federalist Setup
+Next, add your repository to [Federalist], and configure its settings to make preview URLs public.
+
+### Test Setup
 1. Write some [WebDriverIO] tests in the `test/spec/` directory.
 1. Configure your local environment variables:
   * Copy the [.env template](.env.template) and rename it to `.env`.
@@ -84,11 +86,14 @@ into your own. You'll need:
     npm test
     ```
 
-1. Add your repository to [Circle CI], and configure it with your
-   [Sauce Labs] username and access key in the `SAUCE_USERNAME` and
-   `SAUCE_ACCESS_KEY` [environment variables][circle env].
+### Circle CI Setup
+Add your repository to [Circle CI], and configure it with your
+[Sauce Labs] username and access key in the `SAUCE_USERNAME` and
+`SAUCE_ACCESS_KEY` [environment variables][circle env].
 
-1. Push a commit to GitHub, and watch your build status on [Circle CI].
+## Publishing
+To run the tests, just push a commit to GitHub, and watch your build
+status on [Circle CI].
 
 Happy browser testing!
 
