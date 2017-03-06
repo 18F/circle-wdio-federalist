@@ -6,6 +6,9 @@ browser automated testing setup.
 
 
 ## How It Works
+
+[![image](https://cloud.githubusercontent.com/assets/113896/23620957/b6b41ac4-024d-11e7-875f-189591a16be2.png)](http://knsv.github.io/mermaid/live_editor/#/edit/c2VxdWVuY2VEaWFncmFtCkdpdEh1Yi0tPj5GZWRlcmFsaXN0OiBjb21taXQgdHJpZ2dlcnMgYnVpbGQKR2l0SHViLS0-PkNpcmNsZUNJOiBjb21taXQgdHJpZ2dlcnMgYnVpbGQKbG9vcCB3YWl0IGZvciBGZWRlcmFsaXN0CiAgQ2lyY2xlQ0ktLT4-RmVkZXJhbGlzdDogR0VUIC9jb21taXQudHh0CiAgRmVkZXJhbGlzdC0tPj5DaXJjbGVDSTogY29tcGFyZSB0byAkQ0lSQ0xFX1NIQQplbmQKQ2lyY2xlQ0ktLT4-K3Rlc3RzOiBydW4gdGVzdHMKdGVzdHMtLT4-K1NhdWNlIExhYnM6IFNlbGVuaXVtIHNlc3Npb24ocykKU2F1Y2UgTGFicy0tPj5GZWRlcmFsaXN0OiBHRVQgL3Rlc3QtdXJsClNhdWNlIExhYnMtLT4-LXRlc3RzOiB0ZXN0IHJlc3VsdHMKdGVzdHMtLT4-LUNpcmNsZUNJOiBleGl0IHN0YXR1cwpDaXJjbGVDSS0tPj5HaXRIdWI6IGJ1aWxkIHN0YXR1cw)
+
 Here are the moving parts:
 
 * [Federalist] is a web publishing platform that listens for commit hooks from
