@@ -1,5 +1,7 @@
 # Circle CI + WebDriverIO + Sauce Labs + Federalist
 
+[![CircleCI](https://circleci.com/gh/18F/circle-wdio-federalist.svg?style=svg)](https://circleci.com/gh/18F/circle-wdio-federalist)
+
 This is a standalone example of how to integrate [Circle CI], [WebDriverIO],
 [Sauce Labs], and [Federalist] for automated cross-browser testing. Here are
 the highlights:
