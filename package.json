@@ -1,5 +1,4 @@
 {
-  "name": "circle-wdio-federalist",
   "private": true,
   "description": "A test to run WebDriverIO tests on Circle CI with Federalist URLs",
   "scripts": {
@@ -8,17 +7,9 @@
     "test": "wdio test/wdio.conf.js",
     "test-ci": "wdio -b $SITE_URL test/wdio.ci.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shawnbot/circle-wdio-federalist.git"
-  },
   "author": "Shawn Allen <shawn.allen@gsa.gov>",
   "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/shawnbot/circle-wdio-federalist/issues"
-  },
-  "homepage": "https://github.com/shawnbot/circle-wdio-federalist#readme",
-  "dependencies": {
+  "devDependencies": {
     "mocha": "^2.4.5",
     "webdriverio": "^3.4.0"
   }
