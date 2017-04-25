@@ -1,9 +1,10 @@
 # Automated cross-browser testing with Circle CI, WebDriverIO, Sauce Labs, and Federalist
 
+[![CircleCI](https://circleci.com/gh/18F/circle-wdio-federalist.svg?style=svg)](https://circleci.com/gh/18F/circle-wdio-federalist)
+
 This is a standalone, working example that integrates [Circle CI],
 [WebDriverIO], [Sauce Labs], and [Federalist] into a (mostly) sane cross-
 browser automated testing setup.
-
 
 ## How It Works
 
@@ -67,7 +68,8 @@ into your own. You'll need:
    ```
 
 ### Federalist Setup
-Next, add your repository to [Federalist], and configure its settings to make preview URLs public.
+Next, add your repository to [Federalist], and configure its settings to make
+preview URLs public.
 
 ### Test Setup
 1. Write some [WebDriverIO] tests in the `test/spec/` directory.

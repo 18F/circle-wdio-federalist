@@ -1,10 +1,13 @@
-baseurl: ''
-
 title: Hello, world!
 
+gems:
+  - jekyll-git_metadata
+
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
   - circle.yml
   - node_modules
   - package.json
   - test
-  - webpack.config.js
