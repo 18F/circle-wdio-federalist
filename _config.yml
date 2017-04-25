@@ -10,4 +10,3 @@ exclude:
   - node_modules
   - package.json
   - test
-  - webpack.config.js
