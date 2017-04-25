@@ -7,4 +7,5 @@ test:
     # this is a temporary hack for:
     # <https://github.com/webdriverio/webdriverio/issues/926>
     - ln -s /tmp
-    - $(npm bin)/wait-for-federalist --set SITE_URL && npm run test-ci
+    - $(npm bin)/wait-for-federalist > site_url.txt
+    - SITE_URL=$(cat site_url.txt) npm run test-ci
