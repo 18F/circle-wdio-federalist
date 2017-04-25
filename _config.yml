@@ -4,6 +4,8 @@ gems:
   - jekyll-git_metadata
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - circle.yml
   - node_modules
   - package.json
