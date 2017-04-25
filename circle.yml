@@ -7,4 +7,4 @@ test:
     # this is a temporary hack for:
     # <https://github.com/webdriverio/webdriverio/issues/926>
     - ln -s /tmp
-    - ./test/ci.sh
+    - ./test/ci.js
