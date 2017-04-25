@@ -10,7 +10,7 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
     "mocha": "^2.4.5",
-    "wait-for-federalist": "^0.4.0",
+    "wait-for-federalist": "^0.4.1",
     "webdriverio": "^3.4.0"
   }
 }
