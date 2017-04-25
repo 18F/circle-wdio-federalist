@@ -1,6 +1,7 @@
-baseurl: ''
-
 title: Hello, world!
+
+gems:
+  - jekyll-git_metadata
 
 exclude:
   - circle.yml
