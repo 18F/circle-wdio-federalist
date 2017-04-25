@@ -1,6 +1,5 @@
 {
   "private": true,
-  "description": "A test to run WebDriverIO tests on Circle CI with Federalist URLs",
   "scripts": {
     "prestart": "bundle",
     "start": "bundle exec jekyll serve",
@@ -8,10 +7,10 @@
     "test-ci": "wdio -b $SITE_URL test/wdio.ci.js"
   },
   "author": "Shawn Allen <shawn.allen@gsa.gov>",
-  "license": "CC0-1.0",
+  "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
-    "isomorphic-fetch": "^2.2.1",
     "mocha": "^2.4.5",
+    "wait-for-federalist": "^0.2.0",
     "webdriverio": "^3.4.0"
   }
 }
