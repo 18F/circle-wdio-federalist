@@ -1,8 +1,7 @@
 {
   "name": "circle-wdio-federalist",
-  "version": "0.0.0",
+  "private": true,
   "description": "A test to run WebDriverIO tests on Circle CI with Federalist URLs",
-  "main": "index.js",
   "scripts": {
     "prestart": "bundle",
     "start": "bundle exec jekyll serve",
