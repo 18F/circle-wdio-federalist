@@ -10,6 +10,7 @@
   "author": "Shawn Allen <shawn.allen@gsa.gov>",
   "license": "CC0-1.0",
   "devDependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "mocha": "^2.4.5",
     "webdriverio": "^3.4.0"
   }
