@@ -68,7 +68,8 @@ into your own. You'll need:
    ```
 
 ### Federalist Setup
-Next, add your repository to [Federalist], and configure its settings to make preview URLs public.
+Next, add your repository to [Federalist], and configure its settings to make
+preview URLs public.
 
 ### Test Setup
 1. Write some [WebDriverIO] tests in the `test/spec/` directory.
